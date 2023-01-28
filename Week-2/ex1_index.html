@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market</title>
+    <h1 style="display: flex; justify-content: center; color: rgb(54, 54, 54);">
+        Stock Market for Noobs
+    </h1>
+    <link rel="stylesheet" href="ex1_style.css">
+</head>
+<body>
+    <div class="instructions" style="color: rgb(24, 24, 23); display: block; margin-left: 25%; margin-right: 25%;">
+        <h2>Take your time, go ahead read and click on all links!</h2><br>
+    </div>
+    <div class="content">
+        <div class="intro-heading">
+            <h3>Simply holding your stocks can make you more money than day trading!</h3>
+        
+            <div class="intro-summary" style="margin-bottom: 2%;">
+                Malkiel's most controversial claim was that a monkey throwing wet paper towels at a stock chart on the wall could beat an expert armed with statistics and stock picking formulas. Intrigued (and no doubt annoyed) by this statement, the Wall Street Journal took it as a challenge and ran a simulated experiment where people threw darts at stock charts while experts picked stocks deliberately. While the dart throwers didn't win out (the experts got it right 61 out of 100 tries), the experiment did show the investing public that completely random dart tosses beat the experts 39% of the time.
+            </div>
+            <div class="intro-meme" style="background-color: rgb(168, 243, 82);">
+                <img src="https://pbs.twimg.com/media/DYHhzJmVoAANutD.jpg" alt="Day Trading Meme" style="width: 50%; height: 50%; margin: 10%; margin-left: 25%;margin-right: 25%;  border: 2px solid black;">
+            </div>
+        </div>
+        <!-- Articles -->
+        <div class="articles">
+            <!-- Article 1 -->
+            <div class="art" id="art1">
+                <div class="art-heading">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <div class="art-summary" style="font-size: medium;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis consectetur explicabo architecto tempore fugiat inventore natus aliquid excepturi cupiditate, enim officiis autem quaerat nisi vitae illo ab consequuntur temporibus.
+                </div>
+                <div class="art-link">To know more click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here.</a></div>
+            </div>
+            <!-- Article 2 -->
+            <div class="art" id="art2">
+                <div class="art-heading">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <div class="art-summary" style="font-size: medium;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis consectetur explicabo architecto tempore fugiat inventore natus aliquid excepturi cupiditate, enim officiis autem quaerat nisi vitae illo ab consequuntur temporibus.
+                </div>
+                <div class="art-link">To know more click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here.</a></div>
+            </div>
+            <!-- Article 3 -->
+            <div class="art" id="art3">
+                <div class="art-heading">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <div class="art-summary" style="font-size: medium;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum perspiciatis consectetur explicabo architecto tempore fugiat inventore natus aliquid excepturi cupiditate, enim officiis autem quaerat nisi vitae illo ab consequuntur temporibus.
+                </div>
+                <div class="art-link">To know more click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here.</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="form">
+        <form action="#" method="post">
+            <div class="element_div">
+                <label>Title:</label><label style="color: red">*</label>
+                <input type="radio" id="inp1" name="title" value="Mr"><label for="inp1">Mr</label>
+                <input type="radio" id="inp2" name="title" value="Mrs"><label for="inp2">Mrs</label>
+                <input type="radio" id="inp3" name="title" value="Miss"><label for="inp3">Miss</label>
+            </div>
+            <div class="element_div">
+                <label>First Name:</label><label style="color: red">*</label>
+                <span><input type="text" required id="firstName" style="display: block;"/></span>
+            </div>
+            <div class="element_div">
+                <label>Last Name:</label><label style="color: red">*</label>
+                <span><input type="text" required id="lastName" style="display: block;"/></span>
+            </div>
+            <div class="element_div">
+                <div class="label">Email:<label style="color: red">*</label></div>
+                <span><input type="email" required id="email" /></span>
+            </div>
+
+            <div class="element_div">
+                <div class="label">Phone No.:<label style="color: red">*</label></div>
+                <span><input type="tel" id="phoneNo" pattern="[0-9]{10}" /></span>
+            </div>
+            
+            <div class="element_div">
+                <div class="label">Password:<label style="color: red">*</label></div>
+                <span><input type="password" required id="password" /></span>
+            </div>
+
+            <div class="element_div">
+                <div class="label">Confirm Password:<label style="color: red">*</label></div>
+                <span><input type="password" required id="confirmPassword" /></span>
+            </div>
+
+            <div class="element_div">
+                <div class="label">Country:<label style="color: red">*</label></div>
+                <span>
+                    <select id="country" required>
+                        <option value="india">India</option>
+                        <option value="usa">USA</option>
+                        <option value="uk">UK</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </span>
+            </div>
+            
+            <div class="element_div">
+                <span>
+                    <input type="checkbox" required id="termsAndCondition" style="margin:0px;"/>
+                    <label for="termsAndCondition">
+                        I agree to the 
+                        <a href="tandc.html" target="_blank"> terms and conditions.</a>
+                    </label>
+                </span>
+            </div>
+
+            <div class="element_div">
+                <span><input type="submit" value="Sign Up"/></span>
+            </div>
+
+
+
+
+        </form>
+    </div>
+</body>
+<footer><div class="footer">
+    <p><strong style="font-size: large;">About Author: &nbsp </strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit tenetur corrupti voluptatem modi delectus, dolore assumenda, vitae incidunt, sit adipisci repudiandae inventore recusandae. Est, culpa dolor! Dolorum quibusdam nemo repellendus! </p>
+</div></footer>
+</html>
