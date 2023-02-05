@@ -1,0 +1,108 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div#main{
+    height: 200px;
+    width:200px;  
+    transition: 2s; 
+}
+div#main .topleft {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+    background: red;
+    transition-property: all;
+    transition-duration: 2s;
+}
+div#main:hover .topleft {
+     transform:rotate(90deg);
+     transform-origin: 0% -100% 0;
+     transition: 2s;
+     /* width: 100px;
+     height: 100px; */
+     /* top: 0px;
+     right: 0px; */
+     margin: 100px;
+
+}
+div#main .topright {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+    right: 0px;
+    background: yellow;
+    transition-property: all;
+    transition-duration: 2s;
+}
+div#main:hover .topright {
+     transform:rotate(-90deg);
+     transform-origin: 100% -100% 0;
+     transition: 2s;
+     width: 100px;
+     height: 100px;
+     /* top: 0px;
+     right: 0px; */
+     margin: 100px;
+
+}
+
+div#main .bottomleft {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    background: blue;
+    transition-property: all;
+    transition-duration: 2s;
+}
+div#main:hover .bottomleft {
+     transform:rotate(-90deg);
+     transform-origin: 0% 100%;
+     transition: 2s;
+     width: 100px;
+     height: 100px;
+     /* top: 0px;
+     right: 0px; */
+     /* margin: 100px; */
+
+}
+div#main .bottomright {
+    display: inline-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+    background: green;
+    transition-property: all;
+    transition-duration: 2s;
+}
+div#main:hover .bottomright {
+     transform:rotate(90deg);
+     transform-origin: 100% 200%;
+     transition: 2s;
+     width: 100px;
+     height: 100px;
+     /* top: 0px;
+     right: 0px; */
+     margin: 100px;
+
+}
