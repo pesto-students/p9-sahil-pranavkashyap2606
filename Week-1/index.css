@@ -1,0 +1,106 @@
+div {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+}
+.leftpart{
+    display: flex;
+    width: 3%;
+    background-color: rgb(204, 202, 202);
+    height: 90vh;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.iconleft{
+    display: flex;
+    height: 12.5vh;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.footer{
+    background-color: rgb(37, 61, 194);
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    float: left;
+}
+
+.footerimg{
+    display: flex;
+    width: 9vh;
+    padding: 0.45%;    
+}
+
+.footersong{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerartist{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footericons{
+    color: white;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;  
+}
+
+.rightpart{
+    background-color: rgb(71, 71, 71);
+    width: 97%;
+    display: flex;
+
+}
+
+.overviewimg{
+    display: flex;
+    width: 20%;
+    padding: 2%;
+}
+
+.playlistname{
+    color: white;
+    
+    width: 100%;
+}
+
+.even_row{
+    height: 30px;
+    background-color: #f0f0f0;
+}
+
+.odd_row{
+    height: 30px;
+}
+
+table { 
+    border-collapse:collapse;
+    width: 100%;
+    font-size: 12px;
+}
+
+td { 
+    width: 25%;
+    padding-left: 10px;
+}
+
+.linkborder{
+    border: 1px solid black;
+    padding: 1px;
+}
